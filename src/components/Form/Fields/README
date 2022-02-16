@@ -1,0 +1,15 @@
+Last edited: 2021-07-15
+
+This folder contains the generic inputfield-component-
+-factory: InputFieldFactory. Every inputfield that does
+not need special functionality such as autocompletion
+is "created" through this component by passing the inp-
+ut field's id to it.
+
+This folder also contains the inputfields requiring special
+functionality. This includes the components:
+*EngineSelector
+    -TransferList
+*Project
+*Status
+*BSWVersion
